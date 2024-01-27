@@ -18,7 +18,7 @@ function SignIn() {
                 className="absolute w-[92%] md:w-[97%] h-[92%] md:h-[95%] object-cover -z-10 mx-auto rounded-xl"
             />
 
-            <div className="text-center flex flex-col gap-3 max-w-sm md:max-w-xl">
+            <div className="text-center flex flex-col gap-3 max-w-[18.75rem] md:max-w-xl">
                 <h1 className=" text-[2rem] font-bold">FinanceFolio</h1>
                 <p className="text-xl text-gray-50  roboto">
                     Track expenses, manage budgets, and achieve financial goals seamlessly. Simplify your financial journey with our intuitive interface and powerful features.

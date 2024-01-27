@@ -71,13 +71,14 @@ function AddIncomeModal({ show, onClose }) {
                         required
                     />
                 </div>
-
-                <button type="submit" className="btn btn-primary">
-                    Add entry
-                </button>
+                <span className="bg-blue-100 p-2 rounded-md text-center">
+                    <button type="submit" className="text-[#047D95] font-bold text-sm">
+                        Add entry
+                    </button>
+                </span>
             </form>
 
-            <div className="flex flex-col gap-4 mt-6">
+            <div className="flex flex-col gap-4 mt-6 overflow-y-scroll h-[6.5rem] p-4">
                 <h3 className="text-2xl font-bold">Income History</h3>
 
                 {income.map((i) => {
