@@ -101,9 +101,9 @@ function AddExpensesModal({ show, onClose }) {
                         onClick={() => {
                             setShowAddExpense(true);
                         }}
-                        className="text-lime-400"
+                        className="text-[#047D95] font-bold"
                     >
-                        + New Category
+                        + Create New Category
                     </button>
                 </div>
 
@@ -115,7 +115,7 @@ function AddExpensesModal({ show, onClose }) {
                         <input type="color" className="w-24 h-10" value={getRandomColor()} ref={colorRef} />
                         <button
                             onClick={addCategoryHandler}
-                            className="btn btn-primary-outline"
+                            className="text-[#047D95]"
                         >
                             Create
                         </button>
